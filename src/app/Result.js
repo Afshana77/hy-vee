@@ -10,7 +10,7 @@ const Result = ({ age, gender, country }) => {
           <p>Country: {country}</p>
         </div>
      ) : (
-        <div className="bg-red-100 w-80 top-0 postition absolute m-auto border rounded p-2">
+        <div className="bg-red-100 w-80   m-auto border rounded p-2">
           <p>Please enter a valid name</p>
         </div>
       )}  
